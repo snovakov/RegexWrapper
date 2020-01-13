@@ -8,7 +8,7 @@ sub new {
 	my $class = shift;
 	my ($pre, $match, $post, $result) = splice @_, -4;
 	bless {
-			_pre		=> $pre,
+			_pre			=> $pre,
 			_match			=> $match,
 			_post			=> $post,
 			_result			=> $result,
