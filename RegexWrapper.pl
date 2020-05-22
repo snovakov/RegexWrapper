@@ -55,7 +55,7 @@ print $regex->substitute("ci","x")->get_result()."\n";
 print "---------------------------\n";
 print "new_regex->substitute_all():\n";
 my $last = "I batted 4 for 4!";
-my $new_regex = Wrapper->new("4")
+my $new_regex = Wrapper->new("4")	# pass-in the symbol(s) to substitute_all()
 	or die("Error creating Wrapper object!");
 print "new_regex->substitute_all() _result = ";
 print $new_regex->substitute_all($last,"four")->get_result()."\n";
