@@ -63,3 +63,4 @@ print "---------------------------\n";
 print "regex->substitute_all() (attribute doesn't exist):\n";
 print "new_regex->substitute_all() _hemans = ";
 print $new_regex->substitute_all($last,"four")->get_hemans()."\n";
+
