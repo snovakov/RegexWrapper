@@ -107,4 +107,4 @@ It is free software; you can redistribute it and/or modify it under the terms of
 
 a) the GNU General Public License as published by the Free Software Foundation; either version 1, or (at your option) any later version, or
 
-b) the "Artistic License". 
+b) the "Artistic License".
